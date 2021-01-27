@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">StudyApp</string>
+    <string name="main_text">Choose Action</string>
+    <string name="main_chooser">Pet Chooser</string>
+    <string name="send_message">Send message</string>
+    <string name="choose">Choose</string>
+    <string name="choices">It`s your choice</string>
+    <string name="pet_chooser">Pet chooser</string>
+
+    <string-array name="pet_chooser">
+        <item>cats</item>
+        <item>dogs</item>
+        <item>I`ll get lucky</item>
+    </string-array>
+</resources>
