@@ -6,6 +6,9 @@
     <string name="choose">Choose</string>
     <string name="choices">It`s your choice</string>
     <string name="pet_chooser">Pet chooser</string>
+    <string name="hint_message">Message</string>
+    <string name="send">Send</string>
+    <string name="sendSomewhere">Send with...</string>
 
     <string-array name="pet_chooser">
         <item>cats</item>
