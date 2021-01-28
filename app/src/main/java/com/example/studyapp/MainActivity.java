@@ -28,4 +28,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, StopwatchActivity.class);
         startActivity(intent);
     }
+
+    public void onClickMainPictureAndText(View view) {
+        Intent intent = new Intent(this, PictureAndTextActivity.class);
+        startActivity(intent);
+    }
 }
