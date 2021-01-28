@@ -23,4 +23,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CreateMessageActivity.class);
         startActivity(intent);
     }
+
+    public void onClickMainStopwatch(View view) {
+        Intent intent = new Intent(this, StopwatchActivity.class);
+        startActivity(intent);
+    }
 }

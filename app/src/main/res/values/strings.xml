@@ -8,7 +8,11 @@
     <string name="pet_chooser">Pet chooser</string>
     <string name="hint_message">Message</string>
     <string name="send">Send</string>
-    <string name="sendSomewhere">Send with...</string>
+    <string name="chooser_title">Send with...</string>
+    <string name="stopwatch">Stopwatch</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
 
     <string-array name="pet_chooser">
         <item>cats</item>

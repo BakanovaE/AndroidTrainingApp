@@ -30,6 +30,12 @@
         android:layout_height="wrap_content"
         android:text="@string/send_message"
         android:onClick="onClickMainMessage"/>
+    <Button
+        android:id="@+id/stopwatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stopwatch"
+        android:onClick="onClickMainStopwatch"/>
 
 
 
