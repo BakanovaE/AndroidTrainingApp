@@ -38,4 +38,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ConstraintLayoutActivity.class);
         startActivity(intent);
     }
+
+    public void onClickMainTrainingOFPets(View view) {
+        Intent intent = new Intent(this, TrainingOfPetsActivity.class);
+        startActivity(intent);
+    }
 }

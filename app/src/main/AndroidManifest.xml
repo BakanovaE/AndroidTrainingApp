@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StudyApp">
-        <activity android:name=".ConstraintLayoutActivity"></activity>
+        <activity android:name=".CatActivity"></activity>
+        <activity android:name=".CatsCategoryActivity" />
+        <activity android:name=".TrainingOfPetsActivity" />
+        <activity android:name=".ConstraintLayoutActivity" />
         <activity
             android:name=".PictureAndTextActivity"
             android:label="@string/title_activity_picture_and_text"

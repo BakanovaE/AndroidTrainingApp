@@ -23,12 +23,20 @@
     <string name="title_activity_picture_and_text">Title activity</string>
     <string name="it_s_a_duck">It`s a duck!</string>
     <string name="not_a_real_one">(not a real one)</string>
+    <string name="pets_logo">Pets Logo</string>
+    <string name="training_of_pets">Training Of Pets</string>
 
 
     <string-array name="pet_chooser">
         <item>cats</item>
         <item>dogs</item>
         <item>I`ll get lucky</item>
+    </string-array>
+
+    <string-array name="pets">
+        <item>Cats</item>
+        <item>Dogs</item>
+        <item>Others</item>
     </string-array>
 
 </resources>
