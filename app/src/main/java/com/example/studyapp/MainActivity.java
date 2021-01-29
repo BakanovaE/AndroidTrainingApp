@@ -33,4 +33,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, PictureAndTextActivity.class);
         startActivity(intent);
     }
+
+    public void onClickMainConstraintLayout(View view) {
+        Intent intent = new Intent(this, ConstraintLayoutActivity.class);
+        startActivity(intent);
+    }
 }
