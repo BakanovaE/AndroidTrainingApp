@@ -43,4 +43,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, TrainingOfPetsActivity.class);
         startActivity(intent);
     }
+
+    public void onClickMainBitsAndPizza(View view) {
+        Intent intent = new Intent(this, BitsAndPizzasActivity.class);
+        startActivity(intent);
+    }
 }

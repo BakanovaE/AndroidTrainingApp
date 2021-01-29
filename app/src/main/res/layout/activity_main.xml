@@ -46,21 +46,24 @@
         android:layout_height="wrap_content"
         android:text="@string/picture_and_text"
         android:onClick="onClickMainPictureAndText"/>
-
     <Button
         android:id="@+id/button_main_Constraint_Layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/constraint_layout"
         android:onClick="onClickMainConstraintLayout"/>
-
     <Button
         android:id="@+id/button_main_Training_Of_Pets"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/training_of_pets"
         android:onClick="onClickMainTrainingOFPets"/>
-
+    <Button
+        android:id="@+id/button_main_Bits_and_Pizza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bits_and_pizzas"
+        android:onClick="onClickMainBitsAndPizza"/>
 
 
 

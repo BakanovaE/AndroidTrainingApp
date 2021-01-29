@@ -25,6 +25,9 @@
     <string name="not_a_real_one">(not a real one)</string>
     <string name="pets_logo">Pets Logo</string>
     <string name="training_of_pets">Training Of Pets</string>
+    <string name="bits_and_pizzas">Bits and pizzas</string>
+    <string name="create_order">Create Order</string>
+    <string name="create_order_title">Create Order</string>
 
 
     <string-array name="pet_chooser">
@@ -35,8 +38,8 @@
 
     <string-array name="pets">
         <item>Cats</item>
-        <item>Dogs</item>
-        <item>Others</item>
+        <item>Dogs (Not available now)</item>
+        <item>Others (Not available now)</item>
     </string-array>
 
 </resources>
