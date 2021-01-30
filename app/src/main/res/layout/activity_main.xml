@@ -64,6 +64,12 @@
         android:layout_height="wrap_content"
         android:text="@string/bits_and_pizzas"
         android:onClick="onClickMainBitsAndPizza"/>
+    <Button
+        android:id="@+id/button_main_Workout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_workout"
+        android:onClick="onClickMainWorkout"/>
 
 
 

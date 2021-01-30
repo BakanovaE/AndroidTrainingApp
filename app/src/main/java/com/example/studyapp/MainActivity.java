@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.studyapp.workout.WorkoutActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -46,6 +48,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickMainBitsAndPizza(View view) {
         Intent intent = new Intent(this, BitsAndPizzasActivity.class);
+        startActivity(intent);
+    }
+    public void onClickMainWorkout(View view) {
+        Intent intent = new Intent(this, WorkoutActivity.class);
         startActivity(intent);
     }
 }

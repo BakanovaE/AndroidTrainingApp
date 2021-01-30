@@ -10,10 +10,13 @@ import android.widget.Toolbar;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.ShareActionProvider;
+import androidx.core.view.MenuItemCompat;
 
 
 public class BitsAndPizzasActivity extends AppCompatActivity {
 
+    private ShareActionProvider shareActionProvider;
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
@@ -27,7 +30,19 @@ public class BitsAndPizzasActivity extends AppCompatActivity {
 
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.bits_and_pizzas_menu, menu);
+        MenuItem menuItem = menu.findItem(R.id.action_share);
+        shareActionProvider =
+                (ShareActionProvider) MenuItemCompat.getActionProvider(menuItem);
+        setShareActionIntent("Want to join me for pizza?");
+
         return super.onCreateOptionsMenu(menu);
+    }
+
+    private void setShareActionIntent(String text) {
+        Intent intent = new Intent(Intent.ACTION_SEND);
+        intent.setType("text/plain");
+        intent.putExtra(Intent.EXTRA_TEXT, text);
+        shareActionProvider.setShareIntent(intent);
     }
 
     @Override

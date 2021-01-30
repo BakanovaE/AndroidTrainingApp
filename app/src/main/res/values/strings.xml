@@ -28,6 +28,8 @@
     <string name="bits_and_pizzas">Bits and pizzas</string>
     <string name="create_order">Create Order</string>
     <string name="create_order_title">Create Order</string>
+    <string name="action_share">Share</string>
+    <string name="show_details">Show details</string>
 
 
     <string-array name="pet_chooser">
@@ -41,5 +43,10 @@
         <item>Dogs (Not available now)</item>
         <item>Others (Not available now)</item>
     </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="workout_title">Title</string>
+    <string name="workout_description">Description</string>
+    <string name="main_workout">Workout</string>
 
 </resources>
