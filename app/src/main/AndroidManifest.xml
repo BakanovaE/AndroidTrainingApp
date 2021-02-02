@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StudyApp">
-        <activity android:name=".workout.WorkoutDetailActivity"></activity>
+        <activity android:name=".workout.TempActivity"></activity>
+        <activity android:name=".workout.WorkoutDetailActivity" />
         <activity android:name=".workout.WorkoutActivity" />
         <activity
             android:name=".OrderActivity"
