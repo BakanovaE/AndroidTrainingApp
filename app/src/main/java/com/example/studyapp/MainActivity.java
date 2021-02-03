@@ -12,7 +12,7 @@ import com.example.studyapp.message.CreateMessageActivity;
 import com.example.studyapp.pet_chooser.ChooserActivity;
 import com.example.studyapp.picture_and_text.PictureAndTextActivity;
 import com.example.studyapp.stopwatch.StopwatchActivity;
-import com.example.studyapp.trainitg_of_pets.TrainingOfPetsActivity;
+import com.example.studyapp.training_of_pets.TrainingOfPetsActivity;
 import com.example.studyapp.workout.WorkoutActivity;
 
 public class MainActivity extends AppCompatActivity {

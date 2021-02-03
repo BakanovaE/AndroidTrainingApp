@@ -1,4 +1,4 @@
-package com.example.studyapp.trainitg_of_pets;
+package com.example.studyapp.training_of_pets;
 
 import com.example.studyapp.R;
 

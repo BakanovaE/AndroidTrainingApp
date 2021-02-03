@@ -5,7 +5,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:context=".trainitg_of_pets.TrainingOfPetsActivity">
+    tools:context=".training_of_pets.TrainingOfPetsActivity">
 
     <ImageView
         android:contentDescription="@string/pets_logo"

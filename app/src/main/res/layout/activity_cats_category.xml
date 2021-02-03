@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".trainitg_of_pets.CatsCategoryActivity">
+    tools:context=".training_of_pets.CatsCategoryActivity">
 
     <ListView
         android:id="@+id/list_cats"
