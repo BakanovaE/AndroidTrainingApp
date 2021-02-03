@@ -1,4 +1,4 @@
-package com.example.studyapp;
+package com.example.studyapp.bits_and_pizzas;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.ActionBar;
@@ -8,9 +8,10 @@ import android.os.Build;
 import android.os.Bundle;
 import androidx.appcompat.widget.Toolbar;
 
+import com.example.studyapp.R;
+
 public class OrderActivity extends AppCompatActivity {
 
-    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -1,4 +1,6 @@
-package com.example.studyapp;
+package com.example.studyapp.trainitg_of_pets;
+
+import com.example.studyapp.R;
 
 public class Cat {
     private String command;

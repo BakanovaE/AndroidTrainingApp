@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:padding="16dp"
     android:orientation="vertical"
-    tools:context=".ChooserActivity">
+    tools:context=".pet_chooser.ChooserActivity">
 
     <TextView
         android:id="@+id/pet_chooser"

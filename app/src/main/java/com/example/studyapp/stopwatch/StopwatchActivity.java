@@ -1,4 +1,4 @@
-package com.example.studyapp;
+package com.example.studyapp.stopwatch;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.TextView;
+
+import com.example.studyapp.R;
 
 import java.util.Locale;
 

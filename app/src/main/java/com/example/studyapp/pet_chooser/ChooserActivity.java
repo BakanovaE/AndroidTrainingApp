@@ -1,4 +1,4 @@
-package com.example.studyapp;
+package com.example.studyapp.pet_chooser;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Spinner;
 import android.widget.TextView;
+
+import com.example.studyapp.R;
 
 import java.util.List;
 

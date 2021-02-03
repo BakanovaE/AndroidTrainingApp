@@ -13,28 +13,28 @@
         <activity android:name=".workout.WorkoutDetailActivity" />
         <activity android:name=".workout.WorkoutActivity" />
         <activity
-            android:name=".OrderActivity"
+            android:name=".bits_and_pizzas.OrderActivity"
             android:label="@string/create_order"
-            android:parentActivityName=".BitsAndPizzasActivity"
+            android:parentActivityName=".bits_and_pizzas.BitsAndPizzasActivity"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".BitsAndPizzasActivity"
+            android:name=".bits_and_pizzas.BitsAndPizzasActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme" />
-        <activity android:name=".CatActivity" />
+        <activity android:name=".trainitg_of_pets.CatActivity" />
         <activity
-            android:name=".CatsCategoryActivity"
-            android:parentActivityName=".TrainingOfPetsActivity" />
-        <activity android:name=".TrainingOfPetsActivity" />
-        <activity android:name=".ConstraintLayoutActivity" />
+            android:name=".trainitg_of_pets.CatsCategoryActivity"
+            android:parentActivityName=".trainitg_of_pets.TrainingOfPetsActivity" />
+        <activity android:name=".trainitg_of_pets.TrainingOfPetsActivity" />
+        <activity android:name=".constraint_layout.ConstraintLayoutActivity" />
         <activity
-            android:name=".PictureAndTextActivity"
+            android:name=".picture_and_text.PictureAndTextActivity"
             android:label="@string/title_activity_picture_and_text"
             android:theme="@style/Theme.StudyApp.NoActionBar" />
-        <activity android:name=".StopwatchActivity" />
-        <activity android:name=".ShowMessageActivity" />
-        <activity android:name=".CreateMessageActivity" />
-        <activity android:name=".ChooserActivity" />
+        <activity android:name=".stopwatch.StopwatchActivity" />
+        <activity android:name=".message.ShowMessageActivity" />
+        <activity android:name=".message.CreateMessageActivity" />
+        <activity android:name=".pet_chooser.ChooserActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -6,6 +6,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.studyapp.bits_and_pizzas.BitsAndPizzasActivity;
+import com.example.studyapp.constraint_layout.ConstraintLayoutActivity;
+import com.example.studyapp.message.CreateMessageActivity;
+import com.example.studyapp.pet_chooser.ChooserActivity;
+import com.example.studyapp.picture_and_text.PictureAndTextActivity;
+import com.example.studyapp.stopwatch.StopwatchActivity;
+import com.example.studyapp.trainitg_of_pets.TrainingOfPetsActivity;
 import com.example.studyapp.workout.WorkoutActivity;
 
 public class MainActivity extends AppCompatActivity {

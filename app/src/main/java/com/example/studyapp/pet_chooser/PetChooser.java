@@ -1,4 +1,4 @@
-package com.example.studyapp;
+package com.example.studyapp.pet_chooser;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,4 @@
-package com.example.studyapp;
-
-import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.studyapp.trainitg_of_pets;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -10,7 +7,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import androidx.appcompat.app.ActionBar;
+
+import com.example.studyapp.R;
 
 public class CatsCategoryActivity extends Activity {
 

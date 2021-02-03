@@ -1,11 +1,12 @@
-package com.example.studyapp;
+package com.example.studyapp.trainitg_of_pets;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.media.Image;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.studyapp.R;
 
 public class CatActivity extends AppCompatActivity {
 

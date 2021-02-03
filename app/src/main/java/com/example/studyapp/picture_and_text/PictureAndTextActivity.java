@@ -1,7 +1,8 @@
-package com.example.studyapp;
+package com.example.studyapp.picture_and_text;
 
 import android.os.Bundle;
 
+import com.example.studyapp.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
