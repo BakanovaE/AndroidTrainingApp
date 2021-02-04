@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.studyapp.bits_and_pizzas.BitsAndPizzasActivity;
+import com.example.studyapp.cat_chat.CatChatActivity;
 import com.example.studyapp.constraint_layout.ConstraintLayoutActivity;
 import com.example.studyapp.message.CreateMessageActivity;
 import com.example.studyapp.pet_chooser.ChooserActivity;
@@ -57,8 +58,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, BitsAndPizzasActivity.class);
         startActivity(intent);
     }
+
     public void onClickMainWorkout(View view) {
         Intent intent = new Intent(this, WorkoutActivity.class);
+        startActivity(intent);
+    }
+
+    public void onClickMainCatChat(View view) {
+        Intent intent = new Intent(this, CatChatActivity.class);
         startActivity(intent);
     }
 }

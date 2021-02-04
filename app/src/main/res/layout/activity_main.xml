@@ -70,6 +70,12 @@
         android:layout_height="wrap_content"
         android:text="@string/main_workout"
         android:onClick="onClickMainWorkout"/>
+    <Button
+        android:id="@+id/button_main_catchat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cat_chat"
+        android:onClick="onClickMainCatChat"/>
 
 
 
