@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StudyApp">
-        <activity android:name=".workout.TempActivity"></activity>
+        <activity
+            android:name=".bits_and_pizzas.PizzaDetailActivity"
+            android:parentActivityName=".bits_and_pizzas.BitsAndPizzasActivity" >
+        </activity>
+        <activity android:name=".workout.TempActivity" />
         <activity android:name=".workout.WorkoutDetailActivity" />
         <activity android:name=".workout.WorkoutActivity" />
         <activity
